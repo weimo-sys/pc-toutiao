@@ -12,6 +12,7 @@ Vue.use(VueRouter)
 const router = new VueRouter({
   routes: [
     // 配置路由地址和组件对应关系
+    { path: '/', redirect: '/login' },
     { path: '/login', component: Login }
   ]
 })
